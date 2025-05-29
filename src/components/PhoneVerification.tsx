@@ -19,9 +19,9 @@ const PhoneVerification = () => {
     <div className="min-h-screen flex items-center justify-center p-4">
       <Card className="w-full max-w-md mx-auto shadow-xl border-0 bg-white/95 backdrop-blur-sm">
         <CardHeader className="text-center pb-6">
-          <div className="mx-auto mb-4 w-20 h-20 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg">
+          <div className="mx-auto mb-4 w-20 h-20 bg-gradient-to-br from-[#F9C019] to-[#E6AD16] rounded-2xl flex items-center justify-center shadow-lg">
             <span className="text-white font-bold text-2xl">esa</span>
-            <span className="text-orange-200 font-light text-lg">PX</span>
+            <span className="text-yellow-100 font-light text-lg">PX</span>
           </div>
           <h1 className="text-2xl font-bold text-gray-800 mb-2">
             Phone Verification
@@ -62,7 +62,7 @@ const PhoneVerification = () => {
           {/* Send OTP Button */}
           <Button
             onClick={handleSendOTP}
-            className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-[1.02]"
+            className="w-full bg-gradient-to-r from-[#F9C019] to-[#E6AD16] hover:from-[#E6AD16] hover:to-[#D49A13] text-white font-semibold py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-[1.02]"
             disabled={isEditing || !phoneNumber.trim()}
           >
             Send Verification Code

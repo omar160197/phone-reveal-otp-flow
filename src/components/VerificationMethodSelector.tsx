@@ -18,8 +18,8 @@ const VerificationMethodSelector = ({
         variant={selectedMethod === "sms" ? "default" : "outline"}
         className={`flex items-center justify-center space-x-2 py-4 rounded-xl transition-all duration-200 ${
           selectedMethod === "sms"
-            ? "bg-orange-500 hover:bg-orange-600 text-white shadow-lg"
-            : "border-gray-200 hover:border-orange-300 hover:bg-orange-50 text-gray-700"
+            ? "bg-[#F9C019] hover:bg-[#E6AD16] text-white shadow-lg"
+            : "border-gray-200 hover:border-[#F9C019] hover:bg-[#F9C019]/10 text-gray-700"
         }`}
       >
         <Phone className="w-5 h-5" />

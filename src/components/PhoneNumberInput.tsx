@@ -71,7 +71,7 @@ const PhoneNumberInput = ({
             onChange={(e) => setTempPhoneNumber(e.target.value)}
             onKeyDown={handleKeyPress}
             placeholder="Enter phone number"
-            className="flex-1 border-orange-200 focus:border-orange-400 focus:ring-orange-400"
+            className="flex-1 border-[#F9C019] focus:border-[#F9C019] focus:ring-[#F9C019]"
             type="tel"
           />
         </div>
@@ -100,7 +100,7 @@ const PhoneNumberInput = ({
   }
 
   return (
-    <div className="flex items-center justify-between bg-white rounded-lg p-3 border border-gray-200 hover:border-orange-300 transition-colors group">
+    <div className="flex items-center justify-between bg-white rounded-lg p-3 border border-gray-200 hover:border-[#F9C019] transition-colors group">
       <div className="flex-1">
         <div className="text-lg font-semibold text-gray-800 tracking-wide">
           {formatPhoneNumber(phoneNumber)}
@@ -113,7 +113,7 @@ const PhoneNumberInput = ({
         onClick={handleEdit}
         size="sm"
         variant="ghost"
-        className="ml-3 text-orange-600 hover:text-orange-700 hover:bg-orange-50 p-2 group-hover:bg-orange-50"
+        className="ml-3 text-[#F9C019] hover:text-[#E6AD16] hover:bg-[#F9C019]/10 p-2 group-hover:bg-[#F9C019]/10"
       >
         <Pencil className="w-4 h-4" />
       </Button>
